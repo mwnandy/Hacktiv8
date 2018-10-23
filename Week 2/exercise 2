@@ -1,0 +1,15 @@
+Algoritma
+1. Simpan "tahun" dengan tahun berapapun
+2. Jika "tahun" habis di bagi 4 dan tidak habis di bagi 100 masuk ke step 3.a Jika tidak masuk ke step 4.a.
+3. Jika "tahun" habis di bagi 4, habis dibagi 100 dan habis di bagi 400 masuk ke step 4. Jika tidak masuk ke step 3.a
+4. Jalankan "Ini bukan tahun kabisat"
+
+
+Pseudocode
+STORE "tahun" to any number 
+
+IF ("tahun" MOD 4 equals 0 AND "tahun" MOD 100 not equals 0)
+ELSE IF ("tahun" MOD equals 0 AND "tahun" MOD 100 equals 0 AND "tahun" MOD not equals)
+	DISPLAY "Tahun kabisat"
+ELSE
+	DISPLAY "Ini bukan tahun kabisat"

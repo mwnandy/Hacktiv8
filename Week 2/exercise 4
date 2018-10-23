@@ -1,0 +1,16 @@
+algoritma
+1. Simpan nilai "siswa" dengan 0
+2. simpan nilai "kuku"
+3. Ulangi step ke 3 selama "siswa" masih di bawah 40.Jika "siswa" sama dengan "kuku" lanjut ke 2a. Jika tidak lanjut ke 3.a Jika "siswa" sudah 40, lanjut 4.
+
+
+Psedoucode
+STORE "siswa" to with 0
+STORE "kuku" to with any value
+
+WHILE "siswa" < 40
+	IF "siswa" equals "kuku"
+		DISPLAY "Guru akan menghukum"
+	ELSE
+		DISPLAY "Guru akan memuji siswa" 
+	ADD "siswa" by 1

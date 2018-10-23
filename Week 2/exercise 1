@@ -1,0 +1,17 @@
+-PSEDOCOUDE
+STORE "resultangaya" without
+STORE "masabenda" with 600
+STORE "percepatanbenda" with 2
+
+CALCULATE "masabenda" times "percepatanbenda"
+SET "resultgaya" value with calculation result
+
+DISPLAY "resultangaya"
+
+
+1. Simpan "resultangaya" tanpa diberikan nilai. 
+2. Simpan "masabenda" dengan nilai 600.
+3. Simpan "percepatanbenda" dengan nilai 2.
+4. Hitung hasil perkalian "masabenda" dengan "percepatangaya"
+5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "resultangaya"
+6. Tampilkan nilai dari "resultangaya"

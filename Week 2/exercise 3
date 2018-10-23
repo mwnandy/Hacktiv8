@@ -1,0 +1,11 @@
+Algoritma
+1. Simpan "cucian" dengan nilai 20
+2. Jika "cucian" sama dengan 20 masuk ke step 2.a Jika mesin cuci di bawah 20 masuk ke step 3.a
+
+Psedoucode
+STORE "cucian" any 0
+
+IF "cucian" < 20
+	DO "Nyalakan mesin cuci"
+ELSE
+	DO "Cucian anda belum masuk semua"
