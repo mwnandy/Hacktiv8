@@ -1,0 +1,62 @@
+Pseudocode Challenge
+
+1. Newton Second Law
+-PSEDOCOUDE
+STORE "resultangaya" without
+STORE "masabenda" with 600
+STORE "percepatanbenda" with 2
+CALCULATE "masabenda" times "percepatanbenda"
+SET "resultgaya" value with calculation result
+DISPLAY "resultangaya"
+
+1. Simpan "resultangaya" tanpa diberikan nilai. 
+2. Simpan "masabenda" dengan nilai 600.
+3. Simpan "percepatanbenda" dengan nilai 2.
+4. Hitung hasil perkalian "masabenda" dengan "percepatangaya"
+5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "resultangaya"
+6. Tampilkan nilai dari "resultangaya"
+----------------------------------------------------------------------------------------------------------------------
+2. Tahun Kabisat
+Algoritma
+1. Simpan "tahun" dengan tahun berapapun
+2. Jika "tahun" habis di bagi 4 dan tidak habis di bagi 100 masuk ke step 3.a Jika tidak masuk ke step 4.a.
+3. Jika "tahun" habis di bagi 4, habis dibagi 100 dan habis di bagi 400 masuk ke step 4. Jika tidak masuk ke step 3.a
+4. Jalankan "Ini bukan tahun kabisat"
+
+Pseudocode
+STORE "tahun" to any number 
+IF ("tahun" MOD 4 equals 0 AND "tahun" MOD 100 not equals 0)
+ELSE IF ("tahun" MOD equals 0 AND "tahun" MOD 100 equals 0 AND "tahun" MOD not equals)
+	DISPLAY "Tahun kabisat"
+ELSE
+	DISPLAY "Ini bukan tahun kabisat"
+----------------------------------------------------------------------------------------------------------------------
+3. Laundry Day
+Algoritma
+1. Simpan "cucian" dengan nilai 20
+2. Jika "cucian" sama dengan 20 masuk ke step 2.a Jika mesin cuci di bawah 20 masuk ke step 3.a
+
+Psedoucode
+STORE "cucian" any 0
+
+IF "cucian" < 20
+	DO "Nyalakan mesin cuci"
+ELSE
+	DO "Cucian anda belum masuk semua"
+----------------------------------------------------------------------------------------------------------------------
+4. Periksa Kuku
+Algoritma
+1. Simpan nilai "siswa" dengan 0
+2. simpan nilai "kuku"
+3. Ulangi step ke 3 selama "siswa" masih di bawah 40.Jika "siswa" sama dengan "kuku" lanjut ke 2a. Jika tidak lanjut ke 3.a Jika "siswa" sudah 40, lanjut 4.
+
+Psedoucode
+STORE "siswa" to with 0
+STORE "kuku" to with any value
+
+WHILE "siswa" < 40
+	IF "siswa" equals "kuku"
+		DISPLAY "Guru akan menghukum"
+	ELSE
+		DISPLAY "Guru akan memuji siswa" 
+	ADD "siswa" by 1
