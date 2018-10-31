@@ -1,7 +1,15 @@
 function hitungJumlahKata(kalimat) {
     // you can only write your code here!
-    var kata = kalimat.split(" ")
-    return kata.length;
+    // var kata = kalimat.split(" ")
+    // return kata.length;+
+
+    var jumlah = '';
+    for (var i=0; i<kalimat.length; i++){
+      if (kalimat[i] === ' '){
+        jumlah ++;
+      } 
+    }
+    return jumlah + 1;
   }
   
   // TEST CASES
