@@ -1,7 +1,7 @@
 function tentukanDeretAritmatika(arr) {
   // you can only write your code here!
   var hitung = 0;
-  var pembanding ='';
+  var perbandingan ='';
   for (var i=arr.length-1; i>=0; i--){
     hitung = arr[i]-arr[0]
     perbandingan = arr[i-1]
