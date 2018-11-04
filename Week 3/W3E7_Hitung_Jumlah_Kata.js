@@ -3,13 +3,13 @@ function hitungJumlahKata(kalimat) {
     // var kata = kalimat.split(" ")
     // return kata.length;+
 
-    var jumlah = '';
+    var jumlah = 1;
     for (var i=0; i<kalimat.length; i++){
       if (kalimat[i] === ' '){
         jumlah ++;
       } 
     }
-    return jumlah + 1;
+    return jumlah;
   }
   
   // TEST CASES
