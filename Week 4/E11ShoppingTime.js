@@ -7,7 +7,7 @@ function shoppingTime(memberId, money) {
     return 'Mohon maaf, toko X hanya berlaku untuk member saja';
   }
 
-  else if (money < produk[4][1]){
+  else if (money < 50000){
       return 'Mohon maaf, uang tidak cukup'
     }
 
