@@ -12,6 +12,7 @@ function countProfit(shoppers) {
         if (shoppers[j].product === keranjang[i].product && keranjang[i].leftOver >= shoppers[j].amount) {
           keranjang[i].shoppers.push(shoppers[j].name)
           keranjang[i].leftOver -= shoppers[j].amount
+          keranjang[i].totalProfit += shoppers[j].amount * listBarang[i][1]
         }
       }
     }
